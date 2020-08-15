@@ -4,27 +4,27 @@
 
 .cover {
   background: url(assets/freedom.jpg) no-repeat center center/cover;
-  height: 100vh;
-  display: table;
+  width: 100vw;
+  height: 100vh;  
 }
 
-.text {
-  display: table-cell;
-  vertical-align: middle;
-  
+.wrapper {
+  width: 90vw;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
 }
 
-.text h1 {
-  font-family: verdana, arial, sans-serif;
+.hero_text h1 {
+  font-family: arial, verdana, sans-serif;
   font-size: 2rem;
-  line-height: 1.2;
   text-transform: uppercase;
-  text-align: center;
+  line-height: 1.2;
 }
-.text h2 {
-  font-family: verdana, arial, sans-serif;
+
+.author h2 {
+  font-family: arial, verdana, sans-serif;
   font-size: 1.2rem;
-  text-align: center;
-  font-style: italic;
-  
+  font-style:italic;
 }
+
